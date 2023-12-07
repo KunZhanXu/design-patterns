@@ -1,5 +1,8 @@
 package com.xkz.singleton.type1;
 
+/**
+ * 饿汉式（静态变量）
+ */
 public class Singleton {
     // 构造器私有化，外部不可以new
     private Singleton() {
